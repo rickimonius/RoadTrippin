@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RoadTrippin</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+	<title>RoadTrippin</title>
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="container">
+		<div class="row text-center">
+			<img src="/assets/small_logo.png" alt="Road Trippin Logo">
+		</div>
 
-<%= yield %>
+		<%= yield %>
 
+	</div>
 </body>
 </html>
