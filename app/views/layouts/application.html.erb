@@ -8,12 +8,16 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row text-center">
-			<img src="/assets/small_logo.png" alt="Road Trippin Logo">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="row text-center">
+					<img class="logo" src="/assets/small_logo.png" alt="Road Trippin Logo">
+				</div>
+
+				<%= yield %>
+
+			</div>
 		</div>
-
-		<%= yield %>
-
 	</div>
 </body>
 </html>

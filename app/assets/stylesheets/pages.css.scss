@@ -1,3 +1,32 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+	max-width: 700px;
+}
+
+body {
+	padding-top: 20px;
+	color: #666;
+}
+
+.panel {
+	.panel-primary {
+		border-color: #399444;
+		.panel-heading {
+			background-color: #24C538;
+			}}}
+.panel-default {
+	border-color: #399444;
+}
+
+.btn-primary {
+	background-color: #FE902E;
+	border-color: #A5560F;
+}
+
+.logo {
+	max-width: 40%;
+	height: auto;
+}
